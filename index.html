@@ -24,9 +24,11 @@
   	
 	  	
 
-		
-
 	</div>
+
+						<div class="modal-footer col-md-6 d-grid gap-2 col-12 mx-auto" style="text-align: right;">
+				      		<a style="text-align: center;" class="btn btn-success" href="https://api.whatsapp.com/send?phone=5561982402152&text=Olá, Gostaria de fazer um anúncio!" role="button">ANUNCIAR</a>
+				      	</div>
 
 	<div class="d-grid gap-2 col-lg-6 col-sm-12 mx-auto" style="margin-bottom: 50px">
 		<div class="accordion" id="accordionExample">
@@ -36,24 +38,23 @@
 		        LANCHES
 		      </button>
 		    </h2>
-		    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+		    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#lanchepasteis">
 		      <div class="accordion-body">
 
-
-		      	<!-- Button lanche cabeça 01 -->
+		      	<!-- Button lanche pasteis -->
 			  	<div class="d-grid gap-2 col-12 mx-auto">
-			  		<button type="button" class="btn btn-primary btn-lg" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#lanchecabeca01">
+			  		<button type="button" class="btn btn-primary btn-lg" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#lanchepasteis">
                             Pasteis 
 					</button><br>
 				</div>
 		        
-		        <!-- Modal lanche cabeça 01 -->
+		        <!-- Modal lanche pasteis -->
 				<!--Se acrescentar data-bs-backdrop="static" dentro da primeira div, o modal fica estático-->
-				<div class="modal fade" id="lanchecabeca01" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				<div class="modal fade" id="lanchepasteis" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
 				  <div class="modal-dialog">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title" id="staticBackdropLabel">  Pasteis </h5>
+				        <h5 class="modal-title" id="lanchepasteis">  Pasteis </h5>
 				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				      </div>
 				      <div class="modal-body">
@@ -63,7 +64,7 @@
                         <p>Calabresa com queijo</p>
                         <p>Frango com queijo</p>
 				      </div>
-				    <div class="modal-footer"> >
+				    <div class="modal-footer">
 				      	<div class="col-md-12" style="text-align: left;">
 				      		<a style="text-align: center;" class="btn btn-success" href="https://api.whatsapp.com/send?phone=5561992265615&text=Olá, Gostaria de fazer um pedido!" role="button">WHATSAPP</a>
 				      	</div>
@@ -75,34 +76,55 @@
 				  </div>
 				</div>
 
-			<!---	<!-- Button lanche cabeça 02 -->
-			  	<!-- <div class="d-grid gap-2 col-12 mx-auto">
-			  		<button type="button" class="btn btn-primary btn-lg" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#lanchecabeca02">
-				  Lanche do Cabeça 02
+			<!-- Button Tuka-Pizzaria -->
+			  	<div class="d-grid gap-2 col-12 mx-auto">
+			  		<button type="button" class="btn btn-primary btn-lg" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#Tuka-Pizzaria">
+						Tuka-Pizzaria
 					</button><br>
 				</div>
 
-				<!-- Modal lanche cabeça 02 -->
+				<!-- Modal Tuka-Pizzaria -->
 				<!--Se acrescentar data-bs-backdrop="static" dentro da primeira div, o modal fica estático-->
-				<div class="modal fade" id="lanchecabeca02" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				<div class="modal fade" id="Tuka-Pizzaria" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
 				  <div class="modal-dialog">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title" id="staticBackdropLabel">Lanche 02</h5>
+				        <h5 class="modal-title" id="staticBackdropLabel">Tuka-Pizzaria</h5>
 				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				      </div>
-				      <div class="modal-body">
-				        <p>Conteúdo do lanche</p>
-				        <p>Conteúdo do lanche</p>
-				        <p>Conteúdo do lanche</p>
-				        <p>Conteúdo do lanche</p>
-				        <p>Conteúdo do lanche</p>
-				        <p>Conteúdo do lanche</p>
-				        <p>Conteúdo do lanche</p>
+				      <div class="modal-body" style="font-size: 80%;">
+				        <p>1. <b>Milho:</b> Mussarela, Milho, Catupiry e Orégano</p>
+						<p>2. <b>Mussarela:</b> Molho de Tomate, Mussarela e Orégano</p>
+						<p>3. <b>Portuguese:</b> Presunto, Cebola, Ovo, Pimentão, Tomate, Calabresa, Azeitona e Oregano.</p>
+						<p>4. <b>Moda da Casa:</b>  Frango, Presunto, Milho, Calabresa, azeitona e Orégano.</p>
+						<p>5. <b>Calabresa:</b> Calabresa e Orégano.</p>
+						<p>6. <b>Calabresa Com Cebola:</b> Calabresa, Cebola e Orégano.</p>
+						<p>7. <b>Pizzaiolo:</b> Frango, Presunto, Milho, Tomate, Calabresa, Bacon e Orégano.</p>
+						<p>8. <b>Carioca:</b> Frango, Bacon, Azeitona e Orégano </p>
+						<p>9.<b> Frango Catupiry:</b> Molho de Tomate, Mussarela, frango desfiado, catupiry, milho, azeitona e Orégano.</p>
+						<p>10.<b> Peito de Peru:</b> Peito de Peru, Tomate e Orégano.</p>
+						<p>11. <b>Caipira:</b> Frango, Bacon, Milho e Orégano.</p>
+						<p>12.<b> Lombo:</b> Mussarela, Lombo, Tomate, Catupiry e Orégano.</p>
+						<p>13.<b> Vegetariana:</b> Molho de Tomate, Mussarela, Cebola, Ovo, Pimentão, Tomate, Milho, Azeitona e Palmito.</p>
+						<p>14. <b>Frango Gratinado:</b> Frango, Banco, Provolone e Orégano.</p>
+						<p>15. <b>Calabresa Especial:</b> Calabresa, cebola, Azeitona, Cheedar, Orégano.</p>
+						<p>16. <b>Bacon:</b> Bacon, Cebola, Azeitona, Orégano.</p>
+						<p>17. <b>Mexicana:</b> Calabresa, Cebola, Pimentão e Pimenta Calabresa.</p>
+						<p>18. <b>Quatro Queijos:</b> Provolone, Gorgonzola, Catupiry, Tomate eOrégano.</p>
+						<p>19. <b>Carne Seca:</b> Carne Seca, Tomate, Azeitona e Orégano.</p>
+						<p><b>* Todos os Sabores Tradicionais vem incluido com Molho de Tomate e Mussarela</b></p>
+						<p style="text-align: center; font-size: 80%;"><b>ESPECIAIS</b></p>
+						<p>20. <b>Banana:</b> Mussarela, Banana, Canela, Leite Condensado.</p>
+						<p>21. <b>ChocoBanana:</b> Mussarela, Banana e Chocolate.</p>
+						<p>22. <b>Chocolate:</b> Mussarela, Chocolate ao Leite.</p>
+						<p>23. <b>Prestigio:</b> Mussarela, Chocolate e Coco.</p>
+						<p>24.<b> Churrus:</b> Mussarela, Doce de Leite, Açúcar com Canela.</p>
+						
+						
 				      </div>
 				      <div class="modal-footer">
 				      	<div class="col-md-12" style="text-align: left;">
-				      		<a style="text-align: center;" class="btn btn-success" href="https://api.whatsapp.com/send?phone=5561982402152&text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido!" role="button">WHATSAPP</a>
+				      		<a style="text-align: center;" class="btn btn-success" href="https://api.whatsapp.com/send?phone=5561982376455&text= Gostaria de fazer um pedido!" role="button">WHATSAPP</a>
 				      	</div>
 				      	
 				      	<!--<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close dentro div</button>-->
@@ -120,7 +142,7 @@
 				</div>
 
 				<!-- Modal lanche cabeça 03 --
-				<!--Se acrescentar data-bs-backdrop="static" dentro da primeira div, o modal fica estático-->
+				<Se acrescentar data-bs-backdrop="static" dentro da primeira div, o modal fica estático-->
 				<div class="modal fade" id="lanchecabeca03" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
 				  <div class="modal-dialog">
 				    <div class="modal-content">
@@ -140,7 +162,7 @@
 				      <div class="modal-footer">
 				      	<div class="col-md-12" style="text-align: left;">
 				      		<a style="text-align: center;" class="btn btn-success" href="https://api.whatsapp.com/send?phone=5561982402152&text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido!" role="button">WHATSAPP</a>
-				      	</div>
+				      	</div>  -->
 				      	
 				      	<!--<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close dentro div</button>--
 				       </div>
@@ -196,58 +218,137 @@
 		        SERVIÇOS
 		      </button>
 		    </h2>
-		    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+			<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+				<div class="accordion-body">
+				  
+				<!-- Button serviço Mega Hair  -->
+					<div class="d-grid gap-2 col-11 mx-auto">
+						<button type="button" class="btn btn-primary btn-lg" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#servicomegahair">
+					Mega Hair 
+					  </button><br>
+				  </div>
+  
+				  <!-- Modal servico Mega Hair  -->
+				  <!--Se acrescentar data-bs-backdrop="static" dentro da primeira div, o modal fica estático-->
+				  <div class="modal fade" id="servicomegahair" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="staticBackdropLabel">Mega Hair</h5>
+						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+						  <p>Aplicação de Mega Hair </p>
+						  <p>Manutenção de Mega Hair</p> 
+						  <p>Tecimento de cabelo na máquina</p>
+						  <p>Telagem manual</p>
+						  <p>Extensão de cílios</p>
+						  <p>Cursos profissionalizante de Mega Hair e Cílios</p>
+						</div>
+						<div class="modal-footer">
+							<div class="col-md-12" style="text-align: left;">
+								<a style="text-align: center;" class="btn btn-success" href="https://api.whatsapp.com/send?phone=5561981756697 &text=Olá! Gostaria de saber mais sobre seus serviços!" role="button">WHATSAPP</a>
+							</div>
+							<div class="col-md-12" style="text-align: left;">
+							  <a style="text-align: center;" class="btn btn-danger" href="https://www.instagram.com/paulamorgana.megahair/" role="button">INSTAGRAM</a>
+						  </div>
+							
+							<!--<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close dentro div</button>-->
+						 </div>
+						  <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> >>> FECHAR <<< </button>
+					  </div>
+					  
+  
+					</div>
+  
+				  </div>
+				  
+  
+  
 		      <div class="accordion-body">
 		        
-		      <!-- Button serviço cabeça 01 -->
+		      <!-- Button serviço LIMP -->
 			  	<div class="d-grid gap-2 col-12 mx-auto">
-			  		<button type="button" class="btn btn-primary btn-lg" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#servicocabeca01">
-				  Megahair 
+			  		<button type="button" class="btn btn-primary btn-lg" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#LIMP">
+						LIMP - HIGIENIZAÇÃO DE ESTOFADOS
 					</button><br>
 				</div>
 
-				<!-- Modal servico cabeça 01 -->
+				<!-- Modal servico LIMP -->
 				<!--Se acrescentar data-bs-backdrop="static" dentro da primeira div, o modal fica estático-->
-				<div class="modal fade" id="servicocabeca01" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				<div class="modal fade" id="LIMP" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
 				  <div class="modal-dialog">
                       
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title" id="staticBackdropLabel">Megahair </h5>
+				        <h5 class="modal-title" id="staticBackdropLabel">LIMP</h5>
 				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				      </div>
 				      <div class="modal-body">
-				        <p>aplicação de Megahair </p>
-				        <p>manutenção de Megahair</p> 
-				        <p>Tecimento de cabelo na máquina </p>
-				        <p>Telagem manual</p>
-				        <p>Extensão de cílios</p>
-				        <p>Cursos profissionalizante de mea hair e cílios</p>
+						<p>Higienização Sofá novo</p>
+						<p>Higienização Sofá usado</p> 
+						<p>Limpeza de Sofá</p>
+						<p>Limpeza e Higienização de Estofados e colchão</p>
 				      </div>
 				      <div class="modal-footer">
 				      	<div class="col-md-12" style="text-align: left;">
-				      		<a style="text-align: center;" class="btn btn-success" href="https://api.whatsapp.com/send?phone=5561981756697 &text=Olá! Gostaria de ver serviços!" role="button">WHATSAPP</a>
+				      		<a style="text-align: center;" class="btn btn-success" href="https://api.whatsapp.com/send?phone=556195578016 &text=Olá! Gostaria de saber mais sobre seus serviços!" role="button">WHATSAPP</a>
 				      	</div>
-                          <div class="col-md-12" style="text-align: left;">
-                            <a style="text-align: center;" class="btn btn-danger" href="https://www.instagram.com/paulamorgana.megahair/" role="button">INSTAGRAM</a>
-                        </div>
+                        
 				      	
 				      	<!--<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close dentro div</button>-->
 				       </div>
 				        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> >>> FECHAR <<< </button>
 				    </div>
                     
-
 				  </div>
-
 				</div>
                 
 
-		      </div>
+			<!-- Button serviço Informatica -->
+				<div class="d-grid gap-2 col-12 mx-auto">
+					<button type="button" class="btn btn-primary btn-lg" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#informatica">
+					  Informatica
+				  </button><br>
+			  </div>
 
-           </div>
+			  <!-- Modal servico informatica -->
+			  <!--Se acrescentar data-bs-backdrop="static" dentro da primeira div, o modal fica estático-->
+			  <div class="modal fade" id="informatica" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title" id="staticBackdropLabel">Informatica</h5>
+					  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+					  <p>Xerox</p>
+					  <p>Impressão</p> 
+					  <p>Boletos</p>
+					  <p>Scanner</p>
+					</div>
+					<div class="modal-footer">
+						<div class="col-md-12" style="text-align: left;">
+							<a style="text-align: center;" class="btn btn-success" href="https://api.whatsapp.com/send?phone=5561991005309&text=Gostaria de saber mais sobre seus serviços!" role="button">WHATSAPP</a>
+						</div>
+					  
+						
+						<!--<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close dentro div</button>-->
+					 </div>
+					  <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> >>> FECHAR <<< </button>
+				  </div>
+				  
 
-		  </div>
+				</div>
+
+			  </div>
+			  
+
+			</div>
+		</div>
+	</div>
 		  <div class="accordion-item">
 		    <h2 class="accordion-header" id="headingThree">
 		      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -257,16 +358,16 @@
 		    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
 		      <div class="accordion-body">
 		        
-		      <!-- Button produto cabeça 01 -->
+		      <!-- Button produto Utensílios de Casa -->
 			  	<div class="d-grid gap-2 col-12 mx-auto">
-			  		<button type="button" class="btn btn-primary btn-lg" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#produtocabeca01">
+			  		<button type="button" class="btn btn-primary btn-lg" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#produtoutensilioscasa">
                         Utensílios de Casa
 					</button><br>
 				</div>
 
-				<!-- Modal produto cabeça 01 -->
+				<!-- Modal produto Utensílios de Casa -->
 				<!--Se acrescentar data-bs-backdrop="static" dentro da primeira div, o modal fica estático-->
-				<div class="modal fade" id="produtocabeca01" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				<div class="modal fade" id="produtoutensilioscasa" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
 				  <div class="modal-dialog">
 				    <div class="modal-content">
 				      <div class="modal-header">
@@ -281,7 +382,7 @@
 				      </div>
 				      <div class="modal-footer">
 				      	<div class="col-md-12" style="text-align: left;">
-				      		<a style="text-align: center;" class="btn btn-success" href="https://api.whatsapp.com/send?phone=5561982402152&text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido!" role="button">WHATSAPP</a>
+				      		<a style="text-align: center;" class="btn btn-success" href="https://api.whatsapp.com/send?phone=5561994067451&text=Olá, Gostaria de saber mais sobre seus produtos" role="button">WHATSAPP</a>
 				      	</div>
 				      	
 				      	<!--<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close dentro div</button>-->
@@ -291,27 +392,26 @@
 				  </div>
 				</div>
 
-				<!-- Button produto cabeça 02 -->
+				<!-- Button produto Higpele-->
 			  	<div class="d-grid gap-2 col-12 mx-auto">
-			  		<button type="button" class="btn btn-primary btn-lg" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#produtocabeca02">
-				  Hinode
+			  		<button type="button" class="btn btn-primary btn-lg" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#produtohigpele">
+				  Higpele
 					</button><br>
 				</div>
 
-				<!-- Modal produto cabeça 02 -->
+				<!-- Modal produto Higpele -->
 				<!--Se acrescentar data-bs-backdrop="static" dentro da primeira div, o modal fica estático-->
-				<div class="modal fade" id="produtocabeca02" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				<div class="modal fade" id="produtohigpele" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
 				  <div class="modal-dialog">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title" id="staticBackdropLabel">Hinode</h5>
+				        <h5 class="modal-title" id="staticBackdropLabel">Higpele</h5>
 				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				      </div>
 				      <div class="modal-body">
 				        <h5>Higpele</h5>
 				        <p>Produto indicado para o clareamento de manchas na pele, agindo uniformemente e especificamente nas:</p>
 				        <p>Manchas de sol</p>
-				        <p>Melasm</p>
 				        <p>Melasma</p>
                         <p>Acnes</p>
                         <p>Estrias</p>
@@ -319,7 +419,7 @@
 				      </div>
 				      <div class="modal-footer">
 				      	<div class="col-md-12" style="text-align: left;">
-				      		<a style="text-align: center;" class="btn btn-success" href="https://api.whatsapp.com/send?phone=5561991219972&text=Olá, Gostaria de ver seus serviços" role="button">WHATSAPP</a>
+				      		<a style="text-align: center;" class="btn btn-success" href="https://api.whatsapp.com/send?phone=5561991219972&text=Olá, Gostaria de saber mais sobre seus produtos" role="button">WHATSAPP</a>
 				      	</div>
 				      	
 				      	<!--<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close dentro div</button>-->
@@ -338,4 +438,4 @@
 
     
   </body>
-</html>
+</html> 
